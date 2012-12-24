@@ -1,0 +1,13 @@
+/bin
+/.bundle
+/.vagrant
+/vendor/bundle
+/tmp
+/*.box
+/README.html
+/_obsolete
+/peuplade-db
+.tmp/
+*~
+/graphs/*.dot
+/graphs/*.png
