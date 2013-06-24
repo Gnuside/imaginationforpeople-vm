@@ -56,7 +56,7 @@ Vagrant::Config.run do |config|
   config.vm.provision :puppet, :options => vagrant_options do |puppet|
      puppet.module_path = ["puppet/remote-modules","puppet/modules" ]
      puppet.manifests_path = "puppet/manifests"
-     puppet.manifest_file  = "i4p-vm.pp"
+     puppet.manifest_file  = "init.pp"
   end
 
 end
