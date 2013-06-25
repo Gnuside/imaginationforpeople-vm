@@ -7,12 +7,14 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian_squeeze_32"
+  config.vm.box = "debian_wheezy_32"
   #config.vm.box = "gnuside_peuplade_2012-11-25"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://mathie-vagrant-boxes.s3.amazonaws.com/debian_squeeze_32.box"
+  # config.vm.box_url = "http://mathie-vagrant-boxes.s3.amazonaws.com/debian_squeeze_32.box"
+  config.vm.box_url = "https://googledrive.com/host/0B3A2Q55VL0OtZTUzdWdXaFk4U3M#debian_wheezy_32.box"
+
   #config.vm.box_url = "./gnuside_peuplade-2012-11-25.box"
 
   # Boot with a GUI so you can see the screen. (Default is headless)
